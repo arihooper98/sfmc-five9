@@ -18,7 +18,7 @@ module.exports = function listPriorityExample(app, options) {
     });
 
     //set up config.json route
-    app.get('/modules/list-priority', function(req, res) {
+    app.get('/modules/list-priority/', function(req, res) {
         return res.status(200).json(configJSON(req));
     });
 
