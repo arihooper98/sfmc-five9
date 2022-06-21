@@ -11,7 +11,7 @@ module.exports = function(env, argv) {
         entry: path.resolve(__dirname, './src/index.js'),
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: 'discount-code-activity.js'
+            filename: 'list-priority-code-activity.js'
         },
         module: {
             rules: [
@@ -32,7 +32,7 @@ module.exports = function(env, argv) {
                 },
             ]),
             new webpack.BannerPlugin(
-                `${PACKAGE.author} - ${PACKAGE.description} - discount-code`
+                `${PACKAGE.author} - ${PACKAGE.description} - list-priority`
             ),
         ]
     };
