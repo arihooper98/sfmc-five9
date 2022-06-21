@@ -10,7 +10,7 @@
       "build": "webpack --mode production",
       "build:dev": "webpack --mode development",
       "heroku-prebuild": "npm install --dev",
-      "start": "node ./app.js",
+      "start": "node ./app/app.js",
       "bump": "npm run bump:patch",
       "bump:major": "./node_modules/version-bump-prompt/bin/bump.js --major --all --tag",
       "bump:minor": "./node_modules/version-bump-prompt/bin/bump.js --minor --all --tag",
