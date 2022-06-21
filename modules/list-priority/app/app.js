@@ -1,5 +1,5 @@
 const express = require('express');
-const configJSON = require('../config/config.json')
+const configJSON = require('../config.json')
 
 module.exports = function listPriorityExample(app, options) {
     const moduleDirectory = `${options.rootDirectory}/modules/list-priority`;
